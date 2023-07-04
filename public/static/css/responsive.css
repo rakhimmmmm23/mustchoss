@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        max-width: 690px;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 930px;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1160px;
+    }
+}
+
+
+/* desktop */
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1700px) {}
+
+@media screen and (max-width: 1536px) {}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 1320px) {}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1150px) {}
+
+@media screen and (max-width: 1090px) {}
+
+/* tablet */
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 855px) {}
+
+@media screen and (max-width: 800px) {}
+
+@media screen and (max-width: 767px) {}
+
+/* mobile */
+@media screen and (max-width: 575px) {}
+
+@media screen and (max-width: 500px) {}
+
+@media screen and (max-width: 420px) {}
+
+@media screen and (max-width: 414px) {}
+
+@media screen and (max-width: 395px) {}
+
+@media screen and (max-width: 365px) {}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 360px) {}
+
+@media screen and (max-width: 350px) {}
+@media screen and (max-width: 320px) {}

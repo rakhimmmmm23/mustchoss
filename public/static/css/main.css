@@ -1,0 +1,81 @@
+main {
+  width: 100%;
+}
+section.section {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.3);
+}
+section.section > h2 {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 31px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.establishments {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  position: relative;
+}
+
+.institution {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: 160px;
+}
+.institution + .institution {
+  margin-left: 40px;
+}
+.institution > figure,
+.institution > img {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  height: 160px;
+  margin: 0;
+  margin-bottom: 20px;
+  background-color: #242424;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+.institution > h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.institution > p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 11px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,230 @@
+.custom-breadcrumbs {
+   display: inline-flex;
+   align-items: center;
+   color: #000000;
+   font: 300 14px 'Gotham Pro', sans-serif;
+}
+.custom-breadcrumbs-item {
+   margin: 0 10px;
+   color: #000000;
+   padding: 0;
+}
+.custom-breadcrumbs .custom-breadcrumbs-item:first-child {
+   margin-left: 0;
+}
+.rates-section {
+   width: 100%;
+}
+.rates-section-head {
+   width: 100%;
+   padding: 24px 0;
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid #bdbdbd;
+}
+.rates-section-head > a {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+   background: #ffffff;
+   border: 1px solid #000000;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+.rates-section-head > h2 {
+   color: #000000;
+   font: 400 32px 'Gotham Pro', sans-serif;
+   margin: 0;
+}
+.rate-card {
+   background: #ffffff;
+   border-radius: 14px;
+   border: 1px solid #bdbdbd;
+   padding: 24px;
+   margin-bottom: 20px;
+}
+.rate-card-cont .rate-card:last-child {
+   margin-bottom: 0 !important;
+}
+.rate-card .rate-card-head > h4,
+.rate-card .rate-card-head > p {
+   margin: 0;
+   padding: 0;
+}
+.rate-card .rate-card-head {
+   display: flex;
+   align-items: center;
+   color: #000000;
+   justify-content: space-between;
+}
+.rate-card .rate-card-head > h4 {
+   font: 400 24px 'Gotham Pro', sans-serif;
+}
+.rate-card .rate-card-head > p {
+   font: 400 18px 'Gotham Pro', sans-serif;
+}
+.rate-card-cont {
+   margin-top: 20px;
+}
+.rate-card .rate-card-content {
+   margin-top: 16px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.rate-card .rate-card-content > p {
+   margin: 0;
+   padding: 0;
+   max-width: 892px;
+   width: 100%;
+   min-height: 64px;
+   color: #6c6660;
+   font: 400 16px 'Gotham Pro', sans-serif;
+   display: block;
+}
+.rate-card .rate-card-content > button {
+   padding: 15px 0;
+   width: 180px;
+   background: #242424;
+   border: 1px solid #242424;
+   transition: all 0.15s linear;
+   color: #ffffff;
+   font: 400 14px 'Gotham Pro', sans-serif;
+}
+.rate-card .rate-card-content > button:hover {
+   background: #ffffff;
+   color: #242424;
+}
+.rate-card-head h4.rate-ob-a {
+   font: 500 24px 'Gotham Pro', sans-serif;
+}
+.rate-card-head h4.rate-ob-b {
+   font: 400 24px 'Gotham Pro', sans-serif;
+}
+.rate-card-head h4.rate-ob-c {
+   font: 300 24px 'Gotham Pro', sans-serif;
+}
+.my-rates-sec .rate-card-cont .rate-card {
+   background: #242424;
+}
+.my-rates-sec .rate-card-cont .rate-card .rate-card-head,
+.my-rates-sec .rate-card-cont .rate-card .rate-card-content > p {
+   color: #ffffff;
+}
+.my-rates-sec .rate-card-cont .rate-card .rate-card-content > button {
+   background: #ffffff;
+   color: #242424;
+   border: none;
+}
+.popup-payment-rates-1,
+.popup-payment-rates-2,
+.popup-payment-rates-3 {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: #ffffff;
+   z-index: 30;
+   display: none;
+   max-width: 415px;
+   width: 100%;
+}
+.popup-payment-rates-1-cont,
+.popup-payment-rates-2-cont,
+.popup-payment-rates-3-cont {
+   width: 100%;
+   padding: 40px;
+   position: relative;
+}
+.popup-payment-title {
+   margin: 0;
+   margin-bottom: 14px;
+   color: #242424;
+   font: 400 20px 'Gotham Pro', sans-serif;
+}
+.popup-payment-subText {
+   color: #6c6660;
+   font: 300 14px 'Gotham Pro', sans-serif;
+   width: 100%;
+   min-height: 41px;
+   margin: 0;
+   padding: 0;
+}
+.btn-group-popup-payment {
+   margin-top: 24px;
+   width: 100%;
+}
+.btn-group-popup-payment .btn-group-popup-payment-item {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid #bdbdbd;
+   background: transparent;
+   padding: 15px 20px;
+   width: 100%;
+   margin-bottom: 20px;
+}
+.btn-group-popup-payment .btn-group-popup-payment-item:last-child {
+   margin-bottom: 0;
+}
+.btn-group-popup-payment .btn-group-popup-payment-item > div {
+   display: flex;
+   align-items: center;
+}
+.btn-group-popup-payment .btn-group-popup-payment-item > div > span {
+   margin: 0;
+   padding: 0;
+   margin-left: 20px;
+   color: #242424;
+   font: 400 16px 'Gotham Pro', sans-serif;
+}
+.popup-payment-subText .popup-payment-subText-mail {
+   color: #00a1ff;
+   font: 300 14px 'Gotham Pro', sans-serif;
+   text-decoration: underline;
+}
+.popup-payment-back {
+   padding: 0;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   border: none;
+   background: transparent;
+}
+.popup-payment-back > span {
+   margin: 0;
+   padding: 0;
+   color: #242424;
+   font: 400 16px 'Gotham Pro', sans-serif;
+}
+.popup-payment3-inputs {
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+   grid-gap: 24px;
+   margin-top: 24px;
+}
+.popup-payment3-inputs .form__input {
+   width: auto !important;
+}
+.popup-payment3-inputs .popup-payment3-inputs-card-input {
+   grid-column: 1 / -1;
+}
+.paymentCardHandler-popup3 {
+   margin: 0;
+   padding: 0;
+   padding: 19px 0;
+   color: #ffffff;
+   text-align: center;
+   font: 400 16px 'Gotham Pro', sans-serif;
+   background: #242424;
+   border: 1px solid #242424;
+   grid-column: 1 / -1;
+   transition: all .15s linear;
+}
+.paymentCardHandler-popup3:hover {
+   background: transparent;
+   color: #242424;
+}

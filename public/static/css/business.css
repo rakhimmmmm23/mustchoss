@@ -1,0 +1,262 @@
+main {
+    background-color: #fafafa;
+    padding-bottom: 120px;
+}
+.business__header {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.3);
+    padding-top: 24px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.business__header > h1 {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 1;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container__new {
+    min-height: 100%;
+}
+.row__new {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* min-height: calc(100% - 13px - 117px); */
+    height: 50vh;
+    min-height: 405px;
+    background-image: url(../img/biznes/new__bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.row__new > h2 {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 31px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.row__new > p {
+    font-size: 18px;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.row__new > a {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 210px;
+    height: 44px;
+    background-color: #242424;
+    border: 1px solid #242424;
+    font-size: 14px;
+    color: #ffffff;
+}
+.row__new > a:hover {
+    background-color: #ffffff;
+    color: #242424;
+}
+.row__new > a > svg {
+    margin-left: 23px;
+}
+.row__new > a:hover > svg > path {
+    fill: #242424;
+}
+.row__new > a:hover > svg > circle {
+    stroke: #242424;
+}
+
+.listEstablishments {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+.listEstablishments > article {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #BDBDBD;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.listEstablishments > article + article {
+    margin-top: 20px;
+}
+.establishmentInfo {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.establishmentInfo > h3 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.establishmentInfo > p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+.establishmentInfo > .status {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 15px;
+    color: #242424;
+}
+.establishmentInfo > .status > span {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #000000;
+    margin-left: 14px;
+}
+.establishmentInfo > .status > span::before {
+    content: '';
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    background-color: #BDBDBD;
+    margin-right: 14px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.establishmentInfo > .status > span.active::before {
+    background-color: #50DB97;
+}
+.establishmentInfo > .status > span.inactive::before {
+    background-color: #FF3A44;
+}
+.establishmentEdit {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 162px;
+    height: 41px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #242424;
+    margin-left: auto;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.btnNewEstablishment {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    border: 1px solid #242424;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.btnNewEstablishment:hover {
+    background-color: #242424;
+}
+.btnNewEstablishment:hover > svg > path {
+    fill: #ffffff;
+}
+.btnNewEstablishment:hover > svg > circle {
+    stroke: #ffffff;
+}
+.btnHeader {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 208px;
+    height: 44px;
+    border: 1px solid #242424;
+    padding-left: 15px;
+    padding-right: 12px;
+    font-size: 14px;
+    color: #242424;
+    margin-left: auto;
+}
+.btnHeader > svg {
+    margin-left: auto;
+}
+.btnHeader:hover {
+    color: #ffffff;
+    background-color: #242424;
+}
+.btnHeader:hover > svg > path {
+    fill: #ffffff;
+}
+.btnHeader:hover > svg > circle {
+    stroke: #ffffff;
+}

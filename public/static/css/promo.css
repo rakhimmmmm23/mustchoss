@@ -1,0 +1,363 @@
+.promo-link-main,
+.promo-reserve:hover {
+   color: #ffffff !important;
+   background: #242424 !important;
+   border: none !important;
+}
+.promo-reserve,
+.promo-link-main:hover {
+   color: #242424 !important;
+   border: 1px solid #000000 !important;
+   background: transparent !important;
+}
+.promo-panel-page .sidebarBtn {
+   justify-content: center !important;
+}
+.promo-page-img-cont {
+   width: 100%;
+   height: 338px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   border-radius: 14px;
+}
+.promo-page-img-cont img {
+   display: block;
+   width: 100%;
+}
+.promo-page-single .promo-page-head h2,
+.promo-page-single .promo-page-head .institutionExtra {
+   margin: 0;
+   width: fit-content;
+}
+.promo-page-head {
+   margin-top: 23px;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   justify-content: space-between;
+}
+.promo-page-single .promo-page-head h2 {
+   color: #000000;
+   font: 400 36px 'Gotham Pro', sans-serif;
+}
+.promo-page-single .institutionSection {
+   margin: 23px 0 20px !important;
+   padding: 40px 0 !important;
+   border-top: 1px solid rgba(34, 34, 34, 0.3);
+
+   border-bottom: 1px solid rgba(34, 34, 34, 0.3);
+}
+.promo-panel-rating {
+   display: flex;
+   align-items: center;
+   margin-bottom: 12px;
+}
+.promo-panel-rating span {
+   margin: 0;
+   padding: 0;
+   margin-left: 13px;
+   font: 400 16px 'Gotham Pro', sans-serif;
+}
+.promo-panel-rating-text {
+   display: flex;
+   margin-bottom: 30px;
+}
+.promo-panel-rating-text p {
+   padding: 0;
+   margin: 0;
+   margin-right: 12px;
+   font: 400 10px 'Gotham Pro', sans-serif;
+}
+.promo-panel-page > h1,
+.promo-panel-page > h3 {
+   margin: 0;
+   padding: 0;
+}
+.promo-panel-page > h1 {
+   font: 400 24px 'Gotham Pro', sans-serif;
+   margin-bottom: 14px;
+}
+.promo-panel-page > h3 {
+   font: 300 24px 'Gotham Pro', sans-serif;
+   margin-bottom: 24px;
+}
+.custom-breadcrumbs {
+   display: inline-flex;
+   align-items: center;
+   color: #000000;
+   font: 300 14px 'Gotham Pro', sans-serif;
+}
+.custom-breadcrumbs-item {
+   margin: 0 10px;
+   color: #000000;
+   padding: 0;
+}
+.custom-breadcrumbs .custom-breadcrumbs-item:first-child {
+   margin-left: 0;
+}
+.promo-page-single {
+   margin-top: 53px !important;
+}
+.promo-page-single .promo-panel-page {
+   max-width: 360px !important;
+   padding-left: 0 !important;
+}
+.promo-page-single .institutionInfo {
+   max-width: 760px !important;
+}
+.promos-main-section > h2 {
+   margin: 30px 0;
+   padding: 0;
+   color: #000000;
+   font: 400 32px 'Gotham Pro', sans-serif;
+}
+.head-control-promos-main {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-bottom: 16px;
+   border-bottom: 1px solid #bdbdbd;
+}
+.promos-main-section {
+   width: 100%;
+}
+.filter-promos-btn {
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #242424;
+   border-radius: 8px;
+   padding: 12px 15px 12px 20px;
+   width: 260px;
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px 'Gotham Pro', sans-serif;
+}
+.sort-promos {
+   display: flex;
+   align-items: center;
+}
+.sort-promos-popup {
+   position: relative;
+   cursor: pointer;
+}
+.sort-promos > p {
+   margin: 0;
+   padding: 0;
+   margin-right: 13px;
+   font: 400 13px 'Gotham Pro', sans-serif;
+   color: #bdbdbd;
+}
+.sort-promos-popup .sort-promos-btn {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 0;
+   border: none;
+   background: transparent;
+   border-style: solid;
+   border-color: #bdbdbd;
+   border-width: 0px 0px 1px 0px;
+   width: 220px;
+   height: 44px;
+}
+.sort-promos-popup .sort-promos-btn p {
+   color: #000000;
+   text-align: left;
+   font: 400 14px 'Gotham Pro', sans-serif;
+}
+.sort-promos-popup-hid{
+   position: absolute;
+   top:100%;   
+   left: 0;
+   width: 100%;
+   background: #ffffff;
+   padding: 0 16px;
+   z-index: 18;
+   height: 0;
+   overflow: hidden;
+   transition: all 0.2s ease-in-out;
+}
+.sort-promos-popup-hid-active{
+   border: 1px solid #242424;
+   height: 145px;
+}
+.sort-promos-popup-hid>div{
+   padding: 16px 0;
+   color: #242424;
+   font: 400 14px "Gotham Pro", sans-serif;
+   border-bottom:1px solid #bdbdbd;
+}
+.sort-promos-popup-hid>div:last-child{
+   border: none;
+}
+
+.promos-card-cont {
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: repeat(3, minmax(200px, 1fr));
+   grid-gap: 40px 40px;
+}
+.promos-card .promos-card-img-cont {
+   width: 100%;
+   max-height: 160px;
+   height: auto;
+   overflow: hidden;
+   border-radius: 14px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.promos-card .promos-card-img-cont img {
+   width: 100%;
+}
+.promos-card h4 {
+   margin: 0;
+   margin-top: 20px;
+   font: 500 14px/16px 'Gotham Pro', sans-serif;
+   color: #000000;
+}
+.promos-cont-single-estb {
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(2, minmax(200px, 1fr));
+   grid-gap: 0 40px;
+   margin-bottom: 60px;
+}
+.promos-cont-single-estb > *:nth-child(n + 3) {
+   display: none;
+}
+
+/* news */
+.news-section-main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+}
+.news-section-main > h2 {
+   text-align: start;
+   margin: 0;
+   margin-top: 30px;
+   color: #000000;
+   font: 400 32px 'Gotham Pro', sans-serif;
+}
+.news-items-cont {
+   width: 100%;
+   margin-top: 30px;
+   padding: 40px 0;
+   border-top: 1px solid #bdbdbd;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(160px, 260px));
+   grid-gap: 40px 40px;
+}
+.news-item {
+   max-width: 100%;
+   border-bottom: 1px solid #bdbdbd;
+}
+.news-item .news-item-img-cont {
+   border-radius: 8px;
+   height: 180px;
+   overflow: hidden;
+   background: #242424;
+}
+.news-item-img-cont img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+.news-item > h4 {
+   color: #000000;
+   font: 400 16px/16px 'Gotham Pro', sans-serif;
+   margin: 18px 0 8px;
+}
+.news-item > span {
+   color: #242424;
+   font: 400 12px/20px 'Gotham Pro', sans-serif;
+   margin-bottom: 14px;
+}
+.news-item > p {
+   color: #242424;
+   margin-bottom: 14px;
+   display: flex;
+   align-items: center;
+   font: 400 14px/20px 'Gotham Pro', sans-serif;
+}
+.news-item > p > svg {
+   margin-left: 13px;
+}
+.btn-all-news {
+   border: 1px solid #242424;
+   padding: 15.5px 54px;
+   background: transparent;
+   margin: 0 auto;
+   color: #242424;
+   font: 400 14px 'Gotham Pro', sans-serif;
+   transition: all 0.15s linear;
+}
+.btn-all-news:hover {
+   color: #ffffff;
+   background: #242424;
+}
+/* single news */
+.news-single-section {
+   margin-top: 30px;
+   width: 100%;
+}
+.news-single-section .news-single-img-cont {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   max-height: 309px;
+   overflow: hidden;
+   border-radius: 14px;
+}
+.news-single-section .news-single-img-cont img {
+   display: block;
+   width: 100%;
+}
+.news-single-text-cont-main {
+   max-width: 759px;
+   width: 100%;
+   margin: 0 auto;
+   margin-top: 60px;
+}
+.news-single-text-cont-main > h4 {
+   color: #000000;
+   margin: 0;
+   margin-bottom: 15px;
+   font: 400 36px 'Gotham Pro', sans-serif;
+}
+.news-single-text-cont-main .news-single-mini-info {
+   display: flex;
+}
+.news-single-mini-info > p {
+   margin: 0;
+   padding: 0;
+   color: #242424;
+   font: 500 12px 'Gotham Pro', sans-serif;
+}
+.news-single-mini-info > p > span {
+   margin-left: 10px;
+   padding: 0;
+   font: 300 16px 'Gotham Pro', sans-serif;
+}
+.news-single-mini-info > p:first-child {
+   margin-right: 30px;
+}
+.news-single-text-info {
+   margin: 0;
+   margin-top: 40px;
+   padding: 0;
+   padding-bottom: 50px;
+   border-bottom: 1px solid rgba(34, 34, 34, 0.3);
+   width: 100%;
+   color: #000000;
+   font: 300 16px/28px 'Gotham Pro', sans-serif;
+}
